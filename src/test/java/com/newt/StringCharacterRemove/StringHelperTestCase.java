@@ -99,7 +99,7 @@ public class StringHelperTestCase {
 	 * Test The Performance
 	 * 
 	 */
-	@Test(timeout=1)
+	@Test(timeout=1000)
 	public void testArraysSortPerformance(){
 		for(int i=0;i<=1000;i++){
 			int[] number={i,i-1,i+1};
