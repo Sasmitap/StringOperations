@@ -7,7 +7,10 @@ public class StringHelper {
 	 * 
 	 * */
 	
+	
+	
 	public String truncateInFirst2Position(String str){
+		int a;
 		if (str.length()<=2)
 			return str.replaceAll("A", "");
 	
