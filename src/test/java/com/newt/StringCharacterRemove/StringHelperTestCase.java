@@ -15,7 +15,7 @@ public class StringHelperTestCase {
 	@Test
 	public void testAssertEquals(){
 		assertEquals("ABC", "ABC");
-		assertEquals("ABC", "ABC");
+		assertEquals("ABC", "ABCD");
 	}
 	
 	
