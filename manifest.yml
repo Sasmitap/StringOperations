@@ -1,0 +1,7 @@
+---
+applications:
+- name: StringCharacterRemove
+  memory: 1024M
+  host: StringApp
+  domain: cfapps.io
+  buildpack: java_buildpack
